@@ -1,0 +1,44 @@
+body {
+  background-color: #ddd;
+}
+
+nav {
+  background-color: #333333;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+#firstList {
+  background-color: yellow;
+}
+
+span {
+  height: 50px;
+  width: 50px;
+  background-color: #8e44ad;
+  display: inline-block;
+}
+
+a {
+  height: 50px;
+  width: 50px;
+  background: green;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: forestgreen;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 5px;
+  padding: 5px;
+  width: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}

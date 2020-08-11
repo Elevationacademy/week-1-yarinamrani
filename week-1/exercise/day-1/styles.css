@@ -1,0 +1,49 @@
+h1 {
+  font-style: "Helvetica";
+}
+
+ul {
+  color: green;
+}
+
+.heading {
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.gross-color {
+  color: #a3c010;
+}
+
+.nice-color {
+  color: #03bbbb;
+}
+
+#about-me {
+  font-family: sans-serif;
+}
+button:hover {
+  background-color: blue;
+  color: black;
+  border: 1px solid black;
+}p:nth-child(2) {
+background: red;
+}
+/* All p elements that are direct descendants of a div are given green text */
+div > p  {
+  color: green;
+}
+
+/* All p elements that within a div are given blue text */
+div p {
+  background-color: blue;
+}
+
+
+
+
+

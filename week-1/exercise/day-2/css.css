@@ -1,0 +1,92 @@
+/* excerice 1 */
+/* #parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+
+}
+
+#child1 {
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  top: 20px;
+  background-color: red;
+}
+
+#child2 {
+  position: absolute;
+
+  width: 10px;
+  height: 200px;
+  left: 20px;
+  background-color: red;
+}
+ /* graph */
+
+#parent {
+  width: 400px;
+  height: 500px;
+  background-color: green;
+  position: absolute;
+}
+
+#child1 {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 150px;
+  left: 100px;
+  background-color: green;
+}
+
+#child2 {
+  position: absolute;
+  bottom: 20px;
+  width: 40px;
+  height: 190px;
+  left: 150px;
+  background-color: yellow;
+}
+
+#child3 {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 150px;
+  left: 250px;
+  background-color:silver ;
+}
+#child4 {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 120px;
+  left: 300px;
+  background-color: grey;
+}
+
+#child5 {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 80px;
+  left: 350px;
+  background-color: grey;
+}
+
+#child6 {
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 40px;
+  left: 380px;
+  background-color: grey;
+}
+
+#time {
+  position: absolute;
+  bottom: 0px;
+  left: 380px;
+}
