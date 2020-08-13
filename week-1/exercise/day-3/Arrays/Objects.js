@@ -144,14 +144,94 @@
 // else{
 //   console.log("JJill wanted to date Robert, but couldn't")}
 
-
 //excercice 2//
 
-let myList = [
-  { Location: "North",length: 20,},
-  {Location:"South",length:25}]
+// let myList = [
+//   {
+//     Location: "North",
+//     length: 20,
+//   },
+//   {
+//     Location: "South",
+//     length: 25,
+//   },
+// ];
 
-  myList[0].Location = "West"
-  myList.splice(1,1)
-console.log(myList)
+// myList[0].Location = "West";
+
+// myList.pop();
+
+// // console.log(myList)
+
+// //excercise 3//
+
+// let mylist2 = [
+//   {
+//     food: "hamburger",
+//     weight: 20,
+//   },
+//   {
+//     food: "Pizza",
+//     weight: 25,
+//   },
+// ];
+
+// myList = [...mylist2, ...myList];
+// // console.log(myList)
+
+// //excercise 4 //
+// let library = {
+//   books: [
+//     {
+//       title: "funny",
+//       author: " Eliron Giny",
+//     },
+//     {
+//       title: "fairy",
+//       author: "Adam Marks",
+//     },
+//   ],
+// };
+// myList = [...library.books, ...myList];
+// console.log(myList);
+
+///excercise 5 ///
+
+// const reservations = { 
+//   bob: { claimed: false },
+//   ted: { claimed: true },
+// };
+
+// const name = prompt("Please enter the name for your reservation").toLowerCase()
+
+
+// if (reservations[name]) {
+//   if (reservations[name].claimed === true) {
+//     console.log(" welcome " + name );
+//   } else {
+//     console.log("Hmm, someone already claimed this reservation")
+//   }
+// } else {
+//   console.log("sry u dont have res")
+//   reservations[name] = { claimed: true }
+// }
+
+
+// console.log(reservations)
+
+const date = 3
+
+const kitchen = {
+    owner: "Geraldine",
+    hasOven: true/false, // choose one
+    fridge: {
+        price: 500,
+        works: true/false, // choose one
+        items: [
+            { name: "cheese", expiryDate: 7 },
+            { name: "raddish", expiryDate: 2 },
+            { name: "bread", expiryDate: 1 }
+        ]
+    }
+}
 
