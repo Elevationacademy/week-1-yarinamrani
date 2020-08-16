@@ -268,10 +268,22 @@
 // console.log(profession)
 
 
-let x = [ 
-  {name: 'ant', 
-  color: 'brown'}, 
-  {name: 'flower', 
-  color: 'green'}
-]
+ /// Exercise 7 // 
+let boughtTesla = true
+const yearOfTeslaPurchase = 2016
+let isUSCitizen = true
+let currentYear = 2018
 
+if(boughtTesla) {
+  if(isUSCitizen) {
+    if(currentYear - yearOfTeslaPurchase >= 4 ) {
+      console.log("Would like an upgrade?")
+    } else {
+      console.log( "Do customer is satisfied with the car ? ")
+    }
+  } else {
+    console.log("would you like move to USA?")
+  }
+} else {
+  console.log("would you like to buy Tesla?")
+}
